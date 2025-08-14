@@ -1,23 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Coding Club</title>
+  <title>Teachers' Day Wishes - Coding Club</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="container">
-    <!-- Top College Image -->
-    <img src="https://admission.psvpec.in/wp-content/uploads/2025/03/456321-1.png" 
-         alt="College Banner" class="top-image">
 
-    <!-- Coding Club Logo -->
-    <img src="logo.jpg" 
-         alt="Coding Club Logo" class="club-logo">
+  <!-- Top Image -->
+  <div class="top-banner">
+    <img src="https://admission.psvpec.in/wp-content/uploads/2025/03/456321-1.png" alt="Teachers Day Banner">
+  </div>
 
-    <!-- Welcome Message -->
-    <h1 class="animated-text">Welcome to Coding Club</h1>
+  <!-- Coding Club Logo -->
+  <div class="logo-section">
+    <img src="logo.jpg" alt="Coding Club Logo">
+  </div>
+
+  <!-- Login Section -->
+  <div id="login-section">
+    <h2>Login</h2>
+    <input type="text" id="username" placeholder="Enter Your Name">
+    <button onclick="login()">Login</button>
+  </div>
+
+  <!-- Quotes Section -->
+  <div id="quotes-section" class="hidden">
+    <h2>Teachers' Day Wishes</h2>
+    <p id="quote"></p>
   </div>
 
   <script src="script.js"></script>
